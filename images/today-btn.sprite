@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CssFileName="../images" ImageName="today-btn" IsPhone="false" xmlns="CssSprite">
+  <SpriteList>
+    <Sprite Path="prevActive.png" LocationX="0" LocationY="0" />
+    <Sprite Path="prevDefault.png" LocationX="0" LocationY="32" />
+    <Sprite Path="nextActive.png" LocationX="0" LocationY="64" />
+    <Sprite Path="nextDefault.png" LocationX="0" LocationY="96" />
+  </SpriteList>
+</SpriteFile>
