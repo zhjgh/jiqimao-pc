@@ -1,511 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>一级页面</title>
-	<link rel="stylesheet" href="css/global.css">
-	<!--[if IE 8]>
-	<style>.multi-vedio{width:31%;} .ani-small a{width:168px;}</style> 
-	<![endif]-->
-	<!--[if lt IE 9]>
-      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<title>机器猫TV</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/main.min.css">
 </head>
 <body>
-	<div class="site">
-		<!-- 顶部 -->
-		<div class="site-head">
-			<div class="head-inner two-cw">
-				<a class="site-logo" href="one.html"><img src="images/logo.png" alt=""></a>
-				<div class="site-center">
-					<ul class="site-nav">
-						<li><a href="" class="active">首页</a></li>
-						<li><a href="">动漫</a></li>
-						<li><a href="">综艺</a></li>
-						<li><a href="">资讯</a></li>
-						<li><a href="">电视剧</a></li>
-						<li><a href="">游戏直播</a></li>
-						<li><a href="">电影</a></li>
+	<div class="container">
+		<header>
+			<div class="header-inner">
+				<div class="logo"><a href="index.html"><img src="dist/images/logo.png"></a></div>
+				<div class="share">
+					<div><a href="javascript:;" class="share-icon facebook"></a></div>
+					<div><a href="javascript:;" class="share-icon twitter"></a></div>
+					<div><a href="javascript:;" class="share-icon weixin"></a></div>
+					<div><a href="javascript:;" class="share-icon weibo"></a></div>
+				</div>
+				<div class="center clearfix">
+					<ul class="nav clearfix">
+						<li><a href="javascript:;" title="首页">首页</a></li>
+						<li><a href="javascript:;" title="动漫">动漫</a></li>
+						<li><a href="javascript:;" title="综艺">综艺</a></li>
+						<li><a href="javascript:;" title="资讯">资讯</a></li>
+						<li><a href="javascript:;" title="电影">电影</a></li>
+						<li><a href="javascript:;" title="电视剧">电视剧</a></li>
+						<li><a href="javascript:;" title="游戏直播">游戏直播</a></li>
 					</ul>
-					<div class="site-search">
-						<div class="search-inner">
-							<input type="text" placeholder="中国新歌声" class="search-input">
-							<i class="search"><img src="images/search-icon.png" alt=""></i>
-						</div>
-						<ul class="search-result">
-							<li><a href="">中国新歌声</a></li>
-							<li><a href="">中国新歌声</a></li>
-							<li><a href="">中国新歌声</a></li>
-							<li><a href="">中国新歌声</a></li>
-							<li><a href="">中国新歌声</a></li>
-							<li><a href="">中国新歌声</a></li>
-							<li><a href="">中国新歌声</a></li>
-							<li><a href="">中国新歌声</a></li>
-						</ul>
+					<div class="search">
+						<input type="text" placeholder="致青春你也在这里"><span><img src="dist/images/search-icon.png"></span>
 					</div>
 				</div>
-				<div class="site-share">
-					<div><a href="" class="share-icon facebook-icon"></a></div>
-					<div><a href="" class="share-icon twitter-icon"></a></div>
-					<div><a href="" class="share-icon weixin-icon"></a></div>
-					<div><a href="" class="share-icon weibo-icon"></a></div>
-				</div>
 			</div>
-		</div>
+		</header>
 
-		<!-- 轮播 -->
 		<div class="carousel">
 			<ul class="carousel-nav">
-				<a href="" class="active">1111111111111</a>
-				<a href="">222222222222</a>
-				<a href="">33333333333333</a>
-				<a href="">444444444444444</a>
-				<a href="">555555555555555</a>
+				<a href="" class="active">功夫瑜伽：成龙上演宝莱坞style</a>
+				<a href="">朗读者： 斯琴高娃为母亲深情朗读</a>
+				<a href="">斗破苍穹： 一季完结！萧炎远行</a>
+				<a href="">剃刀边缘： 文章携手马伊琍办案</a>
+				<a href="">X玖少年团： 演唱会直播预定开启</a>
 			</ul>
-			<div class="slider" style="display:block"><a href=""><img src="images/slider-img1.jpg" alt=""></a></div>
-			<div class="slider"><a href=""><img src="images/slider-img2.jpg" alt=""></a></div>
-			<div class="slider"><a href=""><img src="images/slider-img3.jpg" alt=""></a></div>
-			<div class="slider"><a href=""><img src="images/slider-img4.jpg" alt=""></a></div>
-			<div class="slider"><a href=""><img src="images/slider-img5.jpg" alt=""></a></div>
-		</div>
-
-		<!-- 资讯 -->
-		<div class="box">
-			<div id="ewm-box" class="ewm-box">
-				<a id="close" class="float-icon close" href="javascript:;"></a>
-				<img src="images/ewm.jpg" alt="">
-			</div>
-			<div class="box-top clearfix">
-				<h2 class="title"><i class="icon news-icon"></i>资讯</h2>
-				<ul class="nav">
-					<li><a href="" class="current">留学国外</a></li>
-					<li><a href="">美容健身</a></li>
-					<li><a href="">吃货世界</a></li>
-					<li><a href="">旅游</a></li>
-					<li><a href="">海外生活</a></li>
-					<li><a href="">娱乐八卦</a></li>
-					<li><a href="">海外新闻</a></li>
-				</ul>
-			</div>
-			<div class="box-bottom clearfix">
-				<div class="box-bottom-left">
-					<div class="focus">
-						<h3><a href="">今日焦点 <small>更多</small></a></h3>
-						<li><a href="">《爸爸去哪儿4》将变王总</a></li>
-						<li><a href="">那当娱乐节目强？</a></li>
-						<li><a href="">羞耻的澡堂到处有</a></li>
-						<li><a href="">开学特辑：放开我，我还能学《新九门》！</a></li>
-						<li><a href="">大卫，伪娘直播日常</a></li>
-						<li><a href="">这是具有红黄智力的漫展</a></li>
-						<li><a href="">白岩松里约傲月会闭幕吐槽打几件呢</a></li>
-						<li><a href="">白岩松里约傲月会闭幕吐槽打几件呢</a></li>
-					</div>
-					<div class="vedio clearfix mt10">
-						<a href="" class="vedio-inner fl">
-							<img src="images/news-img.jpg" alt="">
-							<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-						</a>
-						<a href="" class="vedio-inner fr">
-							<img src="images/news-img.jpg" alt="">
-							<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-						</a>
-					</div>
-				</div>
-				<div class="box-bottom-center">
-					<div class="big-vedio" id="news-big-vedio">
-						<img class="left-btn" src="images/index-arrL-a.png" alt="">
-						<img class="right-btn" src="images/index-arrR-a.png" alt="">
-						<div class="big-vedio-inner">
-							<a href="">
-								<img class="big-vedio-img" src="images/news-vedio.jpg" alt="">
-								<p class="big-vedio-desc"><img src="images/playBtn.png" alt=""><span>过鼻涕这是具有洪荒之力的漫展</span></p>
-							</a>
-							<a href="">
-								<img class="big-vedio-img" src="images/news-vedio.jpg" alt="">
-								<p class="big-vedio-desc"><img src="images/playBtn.png" alt=""><span>过鼻涕这是具有洪荒之力的漫展</span></p>
-							</a>
-							<a href="">
-								<img class="big-vedio-img" src="images/news-vedio.jpg" alt="">
-								<p class="big-vedio-desc"><img src="images/playBtn.png" alt=""><span>过鼻涕这是具有洪荒之力的漫展</span></p>
-							</a>
-						</div>
-					</div>
-					<div class="focus mt10">
-						<h3><a href="">新闻动态 <small>更多</small></a></h3>
-						<li><a href="">《爸爸去哪儿4》将变王总</a></li>
-						<li><a href="">那当娱乐节目强？</a></li>
-						<li><a href="">羞耻的澡堂到处有</a></li>
-						<li><a href="">开学特辑：放开我，我还能学《新九门》！</a></li>
-						<li><a href="">开学特辑：放开我，我还能学《新九门》！</a></li>
-					</div>
-				</div>
-				<div class="box-bottom-right">
-					<a href="" class="multi-vedio">
-						<img src="images/news-img.jpg" alt="">
-						<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-					</a>
-					<a href="" class="multi-vedio">
-						<img src="images/news-img.jpg" alt="">
-						<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-					</a>
-					<a href="" class="multi-vedio">
-						<img src="images/news-img.jpg" alt="">
-						<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-					</a>
-					<a href="" class="multi-vedio">
-						<img src="images/news-img.jpg" alt="">
-						<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-					</a>
-					<a href="" class="multi-vedio">
-						<img src="images/news-img.jpg" alt="">
-						<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-					</a>
-					<a href="" class="multi-vedio">
-						<img src="images/news-img.jpg" alt="">
-						<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-					</a>
-					<a href="" class="multi-vedio">
-						<img src="images/news-img.jpg" alt="">
-						<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-					</a>
-					<a href="" class="multi-vedio">
-						<img src="images/news-img.jpg" alt="">
-						<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-					</a>
-					<a href="" class="multi-vedio">
-						<img src="images/news-img.jpg" alt="">
-						<p>中国代表团在里约奥运会创造众多奥运会记录</p>
-					</a>
-				</div>
-			</div>	
-		</div>
-
-		<!-- 电视剧 -->
-		<div class="box">
-			<div class="box-top clearfix">
-				<h2 class="title"><a href="#"><i class="icon tv-icon"></i>电视剧</a></h2>
-				<ul class="nav">
-					<li><a href="" class="current">热门</a></li>
-					<li><a href="">日韩剧</a></li>
-					<li><a href="">欧美剧</a></li>
-					<li><a href="">大陆剧</a></li>
-				</ul>
-			</div>
-			<div class="box-bottom clearfix" id="tv">
-				<ul class="tv-tab">
-					<div class="btns-img prev-btn"></div>
-					<div class="btns-img next-btn"></div>
-					<div class="tv-tab-inner">
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形aaaaaaaaaaaaaaaaaaaaaaaa辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子热巴拯救跳楼孩子热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-					</div>
-				</ul>
-			</div>	
-		</div>
-
-		<!-- 动漫 -->
-		<div class="box">
-			<div class="box-top clearfix">
-				<h2 class="title"><i class="icon ani-icon"></i>动漫</h2>
-				<ul class="nav">
-					<li><a href="" class="current">新番推荐</a></li>
-					<li><a href="">国漫精选</a></li>
-					<li><a href="">热门日漫</a></li>
-					<li><a href="">动漫剧场版</a></li>
-				</ul>
-			</div>
-			<div class="box-bottom clearfix">
-				<a class="ani-big fl" href="">
-					<img src="images/ani-big.jpg" alt="">
-					<p class="big">麻辣变形记麻辣变形记麻辣变形记麻辣变形记</p>
-					<p class="small">热巴拯救跳楼孩子热巴拯救跳楼孩子热巴拯救跳楼孩子</p>
-				</a>
-				<div class="ani-small fl">
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记aaaaaaaaaaaaaaaddd热巴拯救跳楼孩子</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记麻辣变形记麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子麻辣变形记麻辣变形记</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- 综艺 -->
-		<div class="box">
-			<div class="box-top clearfix">
-				<h2 class="title"><i class="icon variety-icon"></i>综艺</h2>
-			</div>
-			<div class="box-bottom clearfix">
-				<a class="ani-big fl" href="">
-					<img src="images/ani-big.jpg" alt="">
-					<p class="big">麻辣变形记</p>
-					<p class="small">热巴拯救跳楼孩子</p>
-				</a>
-				<div class="ani-small fl">
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-					<a href="">
-						<img src="images/ani-small.jpg" alt="">
-						<p class="big">麻辣变形记</p>
-						<p class="small">热巴拯救跳楼孩子</p>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- 电影 -->
-		<div class="box">
-			<div class="box-top clearfix">
-				<h2 class="title"><i class="icon movie-icon"></i>电影</h2>
-				<ul class="nav">
-					<li><a href="" class="current">热门</a></li>
-					<li><a href="">日韩剧</a></li>
-					<li><a href="">欧美剧</a></li>
-					<li><a href="">大陆剧</a></li>
-				</ul>
-			</div>
-			<div class="box-bottom clearfix" id="movie">
-				<ul class="tv-tab">
-					<div class="btns-img prev-btn"></div>
-					<div class="btns-img next-btn"></div>
-					<div class="tv-tab-inner">
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-						<a href="">
-							<div class="tv-img"><img src="images/tv-img2.jpg" alt=""></div>
-							<p class="big">麻辣变形记</p>
-							<p class="small">热巴拯救跳楼孩子</p>
-						</a>
-					</div>
-				</ul>
-			</div>	
-		</div>
-
-		<!-- 底部 -->
-		<div class="site-footer">
-			<div class="site-link">
-				<a href="">友情链接</a>
-				<a href="">友情链接</a>
-				<a href="">友情链接</a>
-				<a href="">友情链接</a>
-				<a href="">友情链接</a>
-				<a href="">友情链接</a>
-			</div>
-			<div class="site-declaraction">免责声明：本站所提供的资源均收集整理自互联网，只为实现跨网络访问各类站点，实现跨运营商的无缝访问、提高用户浏览的安全性，达到学习和交流目的。凡因用户引起的法律后果由用户自行承担！</div>
-			<div class="site-copyright">Power by <em>机器猫tv</em> Copyright @ 2016 Reserved</div>
-		</div>
-
-		<!-- 浮动 -->
-		<div class="float-box">
-			<a id="toTop" class="float-icon top" href="javascript:;"></a>
-			<a class="float-icon home" href="one.html"></a>
+			<div class="slider" style="display:block"><a href=""><img src="dist/images/0.jpg" alt="功夫瑜伽"></a></div>
+			<div class="slider"><a href=""><img src="dist/images/1.jpg" alt="朗读者"></a></div>
+			<div class="slider"><a href=""><img src="dist/images/2.jpg" alt="斗破苍穹"></a></div>
+			<div class="slider"><a href=""><img src="dist/images/3.jpg" alt="剃刀边缘"></a></div>
+			<div class="slider"><a href=""><img src="dist/images/4.jpg" alt="X玖少年团"></a></div>
 		</div>
 	</div>
-	
-	<script src="js/jquery-1.9.1.min.js"></script>
-	<script src="js/common.js"></script>
-	<script src="js/one.js"></script>
+
+	<script src="require.js"></script>
+	<script src="require.config.js"></script>
+	<script>
+		require(['dist/js/all.min'], function(index){
+			index.init();
+		});
+	</script>
 </body>
 </html>
